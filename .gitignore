@@ -1,2 +1,23 @@
 *.class
 *.log
+kill.sh
+# sbt specific
+dist/*
+target/
+project/boot/
+project/plugins/project/
+project/target/
+
+bundle_*
+bundle-filename
+env
+aws/env
+**/*.DS_Store
+
+# Idea specific
+.idea
+.idea_modules
+*.iml
+
+# jEnv
+.java-version
