@@ -13,6 +13,8 @@ bundle-filename
 env
 aws/env
 **/*.DS_Store
+.DS_Store
+Thumbs.db
 
 # Idea specific
 .idea
@@ -21,3 +23,51 @@ aws/env
 
 # jEnv
 .java-version
+
+front/lib-cov
+front/*.seed
+front/*.log
+front/*.csv
+front/*.dat
+front/*.out
+front/*.pid
+front/*.gz
+front/*.swp
+
+front/pids
+front/logs
+front/results
+front/tmp
+
+# npm
+front/npm-debug.log*
+front/.npm/
+
+# Build
+front/public/css/main.css
+front/build
+
+# Coverage reports
+front/coverage
+
+# API keys and secrets
+front/.env
+
+# Dependency directory
+front/node_modules
+front/bower_components
+
+# Ignore built ts files
+front/dist/**/*
+
+# ignore yarn.lock
+front/yarn.lock
+front/yarn-debug.log*
+front/yarn-error.log*
+
+front/*.tgz
+front*
+front/template/src/__tests__/__snapshots__/
+front/lerna-debug.log
+
+front/.changelog
