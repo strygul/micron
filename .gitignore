@@ -68,5 +68,22 @@ front/yarn-error.log*
 front/*.tgz
 front/template/src/__tests__/__snapshots__/
 front/lerna-debug.log
-
 front/.changelog
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+front/.env.local
+front/.env.development.local
+front/.env.test.local
+front.env.production.local
+
