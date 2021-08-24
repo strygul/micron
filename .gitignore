@@ -66,7 +66,6 @@ front/yarn-debug.log*
 front/yarn-error.log*
 
 front/*.tgz
-front*
 front/template/src/__tests__/__snapshots__/
 front/lerna-debug.log
 
